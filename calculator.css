@@ -1,0 +1,127 @@
+
+body {
+    background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+}
+
+body:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+           
+
+#body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    height:90vh;
+    width:80vw;
+    transform:translate(10vw,3.5vh);
+    border-radius:5px;
+    position:fixed;
+}
+
+
+
+
+
+#heading{
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    height: 13vh;
+    width: 78.5vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:1vw;
+   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+
+#display{
+    height:15vh;
+    width:78.5vw;
+    background-color: rgb(182, 182, 182);
+    font-size: 30px;
+    border-radius:5px;
+    margin-bottom:1vw;
+    position: relative;
+    text-align: right;
+    padding: 0.1vw;
+    position:relative;
+}
+
+#colorChange{
+    color: #f29c4f;
+    letter-spacing: 0.3rem;
+
+}
+
+
+#table{
+    width: 78.5vw;
+
+}
+
+.table-data{
+    height:8.7vh;
+    width:15vw;
+    font-size:xx-large;
+    text-align: center;
+   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    
+}
+
+span{
+    /* why does this code not work for applying linear gradient as font-color ???? */
+     /* background-image:linear-gradient(90deg,red,blue);
+    background-clip: text;
+    color:transparent; */
+
+   background: #232526;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* change color of buttons of calculator upon hovering */
+
+td:hover{
+   
+background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+
+}
+
+
+.change-color{
+    color:white;
+    background-color: rgb(193, 68, 68);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

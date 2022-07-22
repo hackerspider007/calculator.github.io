@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body id="image-background">
+
+        <div id="body" >
+            <!-- this is the div for outer body of the calculator -->
+            <div id="heading">
+                <!-- this div is for hedaing that is at the top of the calculator application -->
+               <h1 id="colorChange"> CALCULATOR </h1>
+
+            </div>
+
+    <div id="display">  </div>
+
+            <table id="table">
+
+                <tr>
+
+                    <td class="table-data all-clear"> <span>AC</span> </td>
+                    <td class="table-data plus-minus"> <span> +/- </span> </td>
+                    <td class="table-data operation"> <span> % </span> </td>
+                    <td class="table-data operation change-color"> <span> / </span> </td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="table-data number"> <span> 7 </span> </td>
+                    <td class="table-data number"> <span> 8 </span> </td>
+                    <td class="table-data number"> <span> 9 </span> </td>
+                    <td class="table-data operation change-color"> <span> * </span>  </td>
+                    
+                </tr>
+
+                <tr>
+
+                    <td class="table-data number"> <span> 4 </span> </td>
+                    <td class="table-data number"><span> 5 </span>  </td>
+                    <td class="table-data number"> <span> 6 </span> </td>
+                    <td class="table-data operation change-color"><span> - </span> </td>
+                    
+                </tr>
+
+                <tr>
+
+                    <td class="table-data number"> <span> 1 </span> </td>
+                    <td class="table-data number"> <span> 2 </span> </td>
+                    <td class="table-data number"> <span> 3 </span> </td>
+                    <td class="table-data operation change-color"> <span> + </span></td>
+                    
+                </tr>
+
+                <tr>
+
+                    <td class="table-data number" colspan="2" > <span> 0 </span> </td> <!-- here colspan attribute of td(table-data) tag is
+                    used to span 2 columns over a single cell in the table-->
+                    <td class="table-data number dot"> <span> . </span> </td>
+                    <td class="table-data equal change-color"> <span> = </span> </td>
+                    
+                    
+                </tr>
+
+            </table>
+
+        </div>
+        
+        <script src="calculator.js" type="application/javascript"></script>
+    </body>
+</html>
